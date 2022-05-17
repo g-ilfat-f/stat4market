@@ -1,0 +1,164 @@
+.hero__container {
+    display: flex;
+    margin-top: 17px;
+}
+
+.hero__list {
+    list-style-type: none;
+    max-width: 868px;
+    margin-right: 42px;
+}
+
+.hero__title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 80px;
+}
+
+.hero__title-lilac {
+    color: #CF51CE;
+}
+
+.hero__item-price {
+    margin-top: 22px;
+}
+
+.hero__item-text {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 160%;
+    color: #331A2F;
+    margin-top: 15px;
+}
+
+.hero__supermen-container {
+    margin-top: 40px;
+}
+
+.hero__supermen {
+    max-width: 560px;
+    height: 560px;
+    z-index: 2;
+    margin: -30px 30px 0 30px;
+}
+
+.hero__supermen-stars {
+    max-width: 620px;
+    height: 563.26px;
+    z-index: 1;
+    position: absolute;
+}
+
+.hero__supermen-mini {
+    display: none;
+}
+
+.hero__curtains {
+    float: right;
+    margin-top: -400px;
+}
+
+@media (max-width: 1280px) {
+    .hero__supermen-container { 
+        margin-top: 30px;
+    }
+
+    .hero__supermen {
+        max-width: 435px;
+        height: 435px;
+    }
+
+    .hero__supermen-stars {
+        max-width: 458px;
+        height: 416px;
+        margin-left: 21px;
+    }
+
+    .hero__title {
+        font-weight: 700;
+        font-size: 46px;
+        line-height: 65px;
+        max-width: 700px;
+    }
+
+    .hero__item-price {
+        margin: 40px 0;
+    }
+
+    .hero__item-price-img {
+        max-width: 256px;
+        height: 55px;
+    }
+
+    .hero__item-text {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 160%;
+        margin-top: 15px;
+    }
+
+    .hero__curtains {
+        display: none;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .hero__item-text {
+        max-width: 482px;
+    }
+
+    .hero__list {
+        max-width: 100%;
+    }
+
+    .hero__item {
+        max-width: 482px;
+    }
+
+    .hero__supermen{
+        display: none;
+    }
+
+    .hero__supermen-stars {
+        display: none;
+    }
+
+    .hero__supermen-mini {
+        display: block;
+        margin-top: 165px;
+        margin-left: -235px;
+    }
+}
+
+@media (max-width: 360px) {
+    .hero {
+        margin-top: 53px;
+    }
+
+    .hero__supermen-container {
+        margin: -5px 0 0 65px;
+    }
+
+
+    .hero__supermen-mini {
+        height: 245px;
+        margin-top: -45px;
+    }
+
+    .hero__title {
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 150%;
+        max-width: 202px;
+    }
+
+    .hero__item {
+        margin-right: 0;
+    }
+
+    .hero__item-text {
+        margin-top: 10px;
+        width: 330px;
+    }
+}
